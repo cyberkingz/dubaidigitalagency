@@ -103,3 +103,9 @@ body {
     width: 100px;
     border-radius: 30px;
 }
+h3 {
+    color: white;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transform: translateY(1500%)}
+}
