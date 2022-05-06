@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:500');
-.back{
-  position: fixed;
-  left: 0;
-  top: 0;
-  margin-top: 100px;
-  width: 100%;
-  height: 100%;
-  background:url(./img/bgcut.png) no-repeat top center #05000f;
-  background-size: 100%;
-}
+
 .thx{
   position: fixed;
   left:50%;
@@ -31,13 +22,14 @@ nav a{
   letter-spacing:1px;
   position:relative;
   display:inline-block;
+
 }
 nav a:before{
   content:'';
   position: absolute;
   width: 100%;
   height: 3px;
-  background:#ff844b;
+  background:#514bff;
   top:47%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
@@ -85,8 +77,29 @@ nav a:hover:before{
     animation:show .2s #{$i*0.1+1}s ease 1 both;
   }
 }
-body {
-    overflow: hidden;
-    background: #05000f;
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transform: translateY(600%)
 }
 
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transform: translateY(800%)}
+
+body {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    background-size: 100vh;
+}
+.e4 {
+    background: white;
+    color: black;
+    width: 100px;
+    border-radius: 30px;
+}
