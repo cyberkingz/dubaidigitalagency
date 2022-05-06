@@ -3,10 +3,11 @@
   position: fixed;
   left: 0;
   top: 0;
+  margin-top: 100px;
   width: 100%;
   height: 100%;
-  background:url(./img/bg.jpeg) no-repeat top center #efeff1;
-  background-size:cover;
+  background:url(./img/bgcut.png) no-repeat top center #05000f;
+  background-size: 100%;
 }
 .thx{
   position: fixed;
@@ -36,7 +37,7 @@ nav a:before{
   position: absolute;
   width: 100%;
   height: 3px;
-  background:#6d5ef0;
+  background:#ff844b;
   top:47%;
   animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
 }
@@ -86,5 +87,6 @@ nav a:hover:before{
 }
 body {
     overflow: hidden;
+    background: #05000f;
 }
 
