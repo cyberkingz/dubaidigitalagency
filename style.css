@@ -46,7 +46,7 @@
   /* ////////////// body ///////////// */
  
 body{
-  background: rgb(0, 0, 0);
+  background-image: url(./img/bg.jpeg);
   text-align: center;
   padding: 0;
   margin: 0;
@@ -80,6 +80,7 @@ h2 {
   margin-right: 15%;
   margin-left: 15%;
   margin-bottom: -50px;
+  background: black;
 }
 
 .parent {
@@ -97,19 +98,24 @@ h2 {
   .Seo {
     border-style: solid;
     border-radius: 13px;
+    background: black;
   }
 
   .Campaign {
     border-style: solid;
     border-radius: 13px;
+    background: black;
   }
 
   .Studio {
     border-style: solid;
     border-radius: 13px;
+    background: black;
   }
 
   .Website {
     border-style: solid;
     border-radius: 13px;
+    background: black;
+
   }
