@@ -80,7 +80,7 @@ h2 {
   margin-right: 15%;
   margin-left: 15%;
   margin-bottom: -50px;
-  background: black;
+  background: rgba(0, 0, 0, 0.527);
 }
 
 .parent {
@@ -98,24 +98,23 @@ h2 {
   .Seo {
     border-style: solid;
     border-radius: 13px;
-    background: black;
+    background: rgba(0, 0, 0, 0.527);
   }
 
   .Campaign {
     border-style: solid;
     border-radius: 13px;
-    background: black;
+    background: rgba(0, 0, 0, 0.527);
   }
 
   .Studio {
     border-style: solid;
     border-radius: 13px;
-    background: black;
+    background: rgba(0, 0, 0, 0.527);
   }
 
   .Website {
     border-style: solid;
     border-radius: 13px;
-    background: black;
-
+    background: rgba(0, 0, 0, 0.527);
   }
