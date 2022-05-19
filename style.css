@@ -9,6 +9,7 @@
   -moz-transition-timing-function: cubic-bezier(100,50,21,6);
   text-align: center;
   margin-top: 20px;
+  font-family: fantasy;
 
 }
 
@@ -46,7 +47,8 @@
   /* ////////////// body ///////////// */
  
 body{
-  background: #000000;
+  background: url(./img/pawel-nolbert-wE_Dk2Kd3GQ-unsplash.jpg);
+  background-size: cover;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -57,10 +59,12 @@ h1{
   color: white;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-family: fantasy;
 }
 
 h2 {
   margin-top: 10px;
+  font-family: fantasy;
   color: white;
 }
 
@@ -69,7 +73,7 @@ h2 {
   margin-right: 0%;
   margin-left: 0%;
   margin-bottom: 0px;
-  background: url(./img/bg.jpeg);
+  background: transparent;
   width: 100%;
   text-align: center;
   display: grid;
@@ -78,7 +82,7 @@ h2 {
 }
 
 .Block {
-  margin-top: 100px;
+  margin-top: 0px;
   border-radius: 13px;
   border-color: white;
   border-width: 5px;
@@ -101,7 +105,7 @@ h2 {
   margin-right: 0%;
   padding-top: 30px;
   padding-bottom: 30px;
-  background: black;
+  background: transparent;
   width: 100%;
   border-style: solid;
   border-color: transparent;
@@ -154,14 +158,14 @@ h2 {
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 0px;
-    color: white;
+    color: transparent;
     margin-top: 100px;
     margin-left: 0%;
     margin-right: 0%;
     padding-bottom: 50px;
     margin-bottom: 0px;
     background: #000;
-    width: 95%;
+    width: 100%;
     border-style: solid;
     border-width: 15px
     
